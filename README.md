@@ -9,7 +9,8 @@ const h2 = require('@sodakits/h2-client');
 
 // Create h2 client
 const client = h2.createClient({
-  url: 'h2://apis.sodakits.io',
+  url: 'h2://apis.sodakits.io', // http2
+  //url: 'https://apis.sodakits.io', // http1.1
   baseHeaders: {
     'x-api-key': 'API-KEY-VALUE'
   }
@@ -26,4 +27,3 @@ async function process() {
   });
 }
 ```
-
