@@ -1,7 +1,7 @@
 group: sodakits
 language: node_js
 node_js:
-- "9"
+- "10"
 cache:
   directories:
   - node_modules

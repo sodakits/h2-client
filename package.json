@@ -1,14 +1,14 @@
 {
   "name": "h2-client",
   "version": "1.0.0",
-  "description": "The simplest http/h2 restful API client for Node.",
+  "description": "Best simplest http/h2 restful API client for Node.",
   "main": "index.js",
   "directories": {
     "lib": "lib",
     "test": "test"
   },
   "scripts": {
-    "test": "mocha --recursive"
+    "test": "mocha --recursive --timeout 5000"
   },
   "repository": {
     "type": "git",
@@ -17,6 +17,7 @@
   "keywords": [
     "sodakits",
     "http",
+    "https",
     "h2"
   ],
   "author": "team-soda@outlook.com",
@@ -28,8 +29,5 @@
   "devDependencies": {
     "mocha": "^5.2.0"
   },
-  "dependencies": {
-    "lodash": "^4.17.10",
-    "url-join": "^4.0.0"
-  }
+  "dependencies": {}
 }
