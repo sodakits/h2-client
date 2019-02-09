@@ -27,6 +27,7 @@
   },
   "homepage": "https://github.com/sodakits/h2-client#readme",
   "devDependencies": {
+    "lodash": "^4.17.11",
     "mocha": "^5.2.0"
   },
   "dependencies": {}
